@@ -27,19 +27,18 @@ def select_winner(passengers)
   end
 end
 
-winner
+
 def select_winner(passengers)
   passengers.each do |suite_d, |"Charlie Chaplin"|
   if suite == :suite_d && name.start_with?("D")
     winner = name
   end
 end
- winner 
+  
 
 def select_winner(passengers)
   passengers.each do |suite_e, |"Crumpet the Elf"|
   if suite == :suite_e && name.start_with?("E")
     winner = name
   end
-end
-winner
+end 
