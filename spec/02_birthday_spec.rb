@@ -17,13 +17,15 @@ end
 ## Change "xit" to "it" in the test block to enable
 
 describe
-def age_appropriate_birthday do
+def age_appropriate_birthday(bithday) do
   xit "only prints the birthday greeting if the birthday kid 12 or younger" do
     birthday_kids = {
       "Timmy" => 9,
       "Sarah" => 6,
       "Amanda" => 27
     }
+  end
+end
 
     expect{age_appropriate_birthday(birthday_kids)}.to output("Happy Birthday Timmy! You are now 9 years old!\nHappy Birthday Sarah! You are now 6 years old!\nYou are too old for this.\n").to_stdout
 
