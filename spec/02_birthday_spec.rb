@@ -24,8 +24,7 @@ def age_appropriate_birthday(bithday)
       "Sarah" => 6,
       "Amanda" => 27
     }
-  end
-end
+  
 
     expect{age_appropriate_birthday(birthday_kids)}.to output("Happy Birthday Timmy! You are now 9 years old!\nHappy Birthday Sarah! You are now 6 years old!\nYou are too old for this.\n").to_stdout
 
